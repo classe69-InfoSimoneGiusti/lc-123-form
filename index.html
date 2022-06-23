@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prove con i form</title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <form action="" method="GET">
+
+        <div>
+            <input type="text" name="nome" placeholder="Inserisci il tuo nome" required />
+            <input type="text" name="cognome" placeholder="Inserisci il tuo cognome" required />
+        </div>
+
+        <!-- <div>
+            <input type="date" name="datanascita" required>
+        </div>
+ -->
+        <div>
+            <input type="radio" name="sesso" value="m" id="contact-radio-1" required>
+            <label for="contact-radio-1">Maschio</label>
+            <br>
+            <input type="radio" name="sesso" value="f" id="contact-radio-2" required>
+            <label for="contact-radio-2">Femmina</label>
+
+        </div>
+
+        <div>
+            <input type="email" name="email" placeholder="Inserisci la tua email" required />
+        </div>
+
+        <div>
+            <textarea name="bio" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input type="number" min="1900" max="2004" name="annonascita" required />
+        </div>
+
+        <div>
+            <input  type="submit" value="Invia">
+        </div>
+
+
+    </form>    
+
+</body>
+</html>
